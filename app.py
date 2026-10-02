@@ -22,9 +22,9 @@ st.set_page_config(
 
 BASE_DIR = Path(__file__).resolve().parent
 
-EVENTS_FILE = BASE_DIR / "AquaSafe_eThekwini_Official_Water_Events.csv"
-RISK_FILE = BASE_DIR / "AquaSafe_Upgraded_Community_Risk_Snapshot.csv"
-WEEKLY_FILE = BASE_DIR / "AquaSafe_Upgraded_Weekly_System_Series.csv"
+EVENTS_FILE = BASE_DIR / "eThekwini_Official_Water_Events.csv"
+RISK_FILE = BASE_DIR / "Community_Risk_Snapshot.csv"
+WEEKLY_FILE = BASE_DIR / "AquaSafe_Weekly_System_Series.csv"
 LEADERBOARD_FILE = BASE_DIR / "AquaSafe_3_Model_Leaderboard.csv"
 HORIZON_FILE = BASE_DIR / "AquaSafe_RF_Forecast_7_14_30_Days.csv"
 FORECAST_FILE = BASE_DIR / "AquaSafe_RF_12_Week_Forecast.csv"
